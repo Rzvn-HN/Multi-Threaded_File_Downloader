@@ -6,7 +6,7 @@ SourceProvider: Interface for accessing the remote file
 String outputPath: Destination file path
 int workerCount: Number of download threads
 
-##SourceProvider Interface:
+## SourceProvider Interface:
 long size(): Returns total file size in bytes
 SourceReader connect(long offset): Establishes connection starting at specified byte position
 SourceReader Interface:
