@@ -1,6 +1,6 @@
 # Multi-Threaded_File_Downloader
 
-##Primary Class: MultiThreadCopier
+## Primary Class: MultiThreadCopier
 Constructor Parameters:
 SourceProvider: Interface for accessing the remote file
 String outputPath: Destination file path
